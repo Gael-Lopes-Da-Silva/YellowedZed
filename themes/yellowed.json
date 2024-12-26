@@ -1,5 +1,5 @@
 {
-    "$schema": "https://zed.dev/schema/themes/v0.1.0.json",
+    "$schema": "https://zed.dev/schema/themes/v0.2.0.json",
     "name": "Yellowed",
     "author": "Gaël Lopes Da Silva",
     "themes": [
@@ -24,14 +24,14 @@
                 "drop_target.background": "#303030",
                 "ghost_element.background": "#00000000",
                 "ghost_element.hover": "#303030",
-                "ghost_element.active": "#303030",
+                "ghost_element.active": "#404040",
                 "ghost_element.selected": "#303030",
                 "ghost_element.disabled": "#181818",
                 "text": "#FFFFFF",
                 "text.muted": "#6B6B6B",
                 "text.placeholder": "#6B6B6B",
                 "text.disabled": "#6B6B6B",
-                "text.accent": "#6B6B6B",
+                "text.accent": "#FFD900",
                 "icon": "#FFFFFF",
                 "icon.muted": "#6B6B6B",
                 "icon.disabled": "#6B6B6B",
@@ -64,8 +64,8 @@
                 "editor.invisible": "#6B6B6B",
                 "editor.wrap_guide": "#303030",
                 "editor.active_wrap_guide": "#303030",
-                "editor.document_highlight.read_background": "#404040",
-                "editor.document_highlight.write_background": "#404040",
+                "editor.document_highlight.read_background": "#00000000",
+                "editor.document_highlight.write_background": "#00000000",
                 "terminal.background": "#1F1F1F",
                 "terminal.foreground": "#FFFFFF",
                 "terminal.bright_foreground": "#FFFFFF",
@@ -141,7 +141,7 @@
                     {
                         "cursor": "#FFD900",
                         "background": "#FFD900",
-                        "selection": "#404040"
+                        "selection": "#5050503d"
                     },
                     {
                         "cursor": "#378B1D",
@@ -157,26 +157,6 @@
                         "cursor": "#008DFF",
                         "background": "#008DFF",
                         "selection": "#008DFF3d"
-                    },
-                    {
-                        "cursor": "#FF9C00",
-                        "background": "#FF9C00",
-                        "selection": "#FF9C003d"
-                    },
-                    {
-                        "cursor": "#c24038",
-                        "background": "#c24038",
-                        "selection": "#c240383d"
-                    },
-                    {
-                        "cursor": "#FF009F",
-                        "background": "#FF009F",
-                        "selection": "#FF009F3d"
-                    },
-                    {
-                        "cursor": "#0006ab",
-                        "background": "#0006ab",
-                        "selection": "#0006ab3d"
                     }
                 ],
                 "syntax": {
